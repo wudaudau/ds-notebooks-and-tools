@@ -1,0 +1,32 @@
+name: ds-core
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+
+  # notebooks
+  - jupyterlab
+  - ipykernel
+
+  # data
+  - numpy
+  - pandas
+  - openpyxl
+  - pyarrow
+  - fastparquet
+
+  # stats / ML
+  - scipy
+  - statsmodels
+  - scikit-learn
+
+  # plotting
+  - matplotlib
+  - seaborn
+  - plotly
+  - matplotlib-venn
+
+  # bio
+  - scikit-bio
