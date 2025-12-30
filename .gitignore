@@ -1,0 +1,12 @@
+venv
+*.pyc
+.vscode/
+
+# Data files
+data/
+
+# Output files
+output/
+
+# immport download tool files
+immport-data-download-tool/
