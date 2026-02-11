@@ -30,3 +30,5 @@ dependencies:
 
   # bio
   - scikit-bio
+  - gprofiler-official
+  - bioinfokit
