@@ -10,25 +10,26 @@ dependencies:
   - jupyterlab
   - ipykernel
 
-  # data
-  - numpy
-  - pandas
-  - openpyxl
-  - pyarrow
-  - fastparquet
+  - pip:
+    # data
+    - numpy
+    - pandas
+    - openpyxl
+    - pyarrow
+    - fastparquet
 
-  # stats / ML
-  - scipy
-  - statsmodels
-  - scikit-learn
+    # stats / ML
+    - scipy
+    - statsmodels
+    - scikit-learn
 
-  # plotting
-  - matplotlib
-  - seaborn
-  - plotly
-  - matplotlib-venn
+    # plotting
+    - matplotlib
+    - seaborn
+    - plotly
+    - matplotlib-venn
 
-  # bio
-  - scikit-bio
-  - gprofiler-official
-  - bioinfokit
+    # bio
+    - scikit-bio
+    - gprofiler-official
+    - bioinfokit
